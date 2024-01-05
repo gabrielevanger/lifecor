@@ -63,6 +63,9 @@ export default function Home() {
         <Header />
       </div>
       <Items />
+      <footer>
+        <h1>feito por Gabriel</h1>
+      </footer>
     </main>
   );
 }
