@@ -39,8 +39,7 @@ function AvatarCustom() {
   return (
     <Avatar
       className="w-20 h-20"
-      src="./public/logo-V-web-lifecor(1).png"
-{/*       src="https://i.pravatar.cc/150?u=a042581f4e29026024d" */}
+      src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
     />
   );
 }
