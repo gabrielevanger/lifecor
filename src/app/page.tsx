@@ -1,7 +1,5 @@
 "use client";
-import { Avatar, Button, Link } from "@nextui-org/react";
-import Image from "next/image";
-import { Fragment } from "react";
+import { Avatar, Link } from "@nextui-org/react";
 
 const items = [
   {
@@ -20,8 +18,7 @@ const items = [
     url: "mailto: gabriel.evanger@gmail.com",
   },
 ];
-
-export function Items() {
+function Items() {
   return (
     <>
       {items.map((item) => (
@@ -38,7 +35,7 @@ export function Items() {
   );
 }
 
-export function AvatarCustom() {
+function AvatarCustom() {
   return (
     <Avatar
       className="w-20 h-20"
@@ -47,7 +44,7 @@ export function AvatarCustom() {
   );
 }
 
-export function Header() {
+function Header() {
   return (
     <header>
       <h1>Clínica Lifecor | Medicina e saúde</h1>
@@ -63,9 +60,6 @@ export default function Home() {
         <Header />
       </div>
       <Items />
-      <footer>
-        <h1>feito por Gabriel</h1>
-      </footer>
     </main>
   );
 }
